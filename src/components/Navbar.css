@@ -1,7 +1,8 @@
 .navDiv{
   margin: 5px 15px 25px 15px;
   padding: 15px;
-  background-color: #ffefe4;
+  /* background-color: #ffefe4; */
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   box-shadow: 5px 2px 5px rgb(110, 110, 110);
 }
@@ -85,7 +86,7 @@
   
   input[type=text]:focus {
     border: 2px solid #555;
-    background-color: rgb(230, 230, 230);
+    background-color: rgba(230, 230, 230, 0.493);
     /* box-shadow: 3px 3px 7px -1px rgb(86, 86, 86);   */
     /* box-shadow: 10px 10px 14px -2px rgb(86, 86, 86); */
   }

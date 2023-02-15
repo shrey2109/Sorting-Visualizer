@@ -5,7 +5,8 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  background-color: #d4ebfd;
+  /* background-color: #d4ebfd; */
+  background: rgba(255, 255, 255, 0.3);
   margin: 5px 15px 15px 15px;
   padding: 15px;
   border-radius: 10px;
@@ -99,4 +100,18 @@
     .visual__btns > button {
       margin-bottom: -3px;
     }
+  }
+
+
+  
+
+  #codePart{
+    height: 90px;
+    width: 400px;
+    background-color :rgb(255, 255, 255, 0.5);
+    padding: 15px;
+    font-family: monospace;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px rgb(110, 110, 110);
   }

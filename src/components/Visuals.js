@@ -28,7 +28,10 @@ const Visuals = () => {
                // SPACE B/W BARS
                //Main
                {/* return <div className="visual__item" key={item[1]} id={item[1]} style={{transition:`${speed/1000}s linear all`, transform:`translateX(${item[1]*25}px)`}}> */}
-               return <div className="visual__item" key={item[1]} id={item[1]} style={{transition:`${speed/1000}s linear all`, transform:`translateX(${item[1]*35}px)`}}>
+               //Main??
+               {/* return <div className="visual__item" key={item[1]} id={item[1]} style={{transition:`${speed/1000}s linear all`, transform:`translateX(${item[1]*35}px)`}}> */}
+               {/* return <div className="visual__item" key={item[1]} id={item[1]} style={{transitionDelay:`${speed*5}ms`, transition:`${speed/1000}s linear all`, transform:`translateX(${item[1]*35}px)`}}> */}
+               return <div className="visual__item" key={item[1]} id={item[1]} style={{transition:`${speed/1200}s linear all`, transform:`translateX(${item[1]*35}px)`}}>
 
                         {/* BAR HEIGHT ABOVE BAR */}
                         <div style= {{ fontSize: '15px', fontWeight:'bold' }}> {item[0]} </div>

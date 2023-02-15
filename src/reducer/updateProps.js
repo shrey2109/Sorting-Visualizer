@@ -1,7 +1,9 @@
+import BubbleCode from "../components/BubbleCode";
+
 const initialState = {
   sortingAlgorithm: "",
   sortingColor: "",
-  sortingSpeed: 300,
+  sortingSpeed: 1000,
   play: false,
   arrVal: [],
 };

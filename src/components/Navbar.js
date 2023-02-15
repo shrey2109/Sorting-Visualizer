@@ -62,7 +62,7 @@ const Navbar = () => {
   
   
   const handlePlayPause = (play) => {
-
+    console.log(myState.play)
     if(!myState.play){
       //  console.log("msa = " + myState.arrVal);
       //  console.log("msa length = " + myState.arrVal.length);
