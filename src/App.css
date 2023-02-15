@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.timer{
+  background-color: darkmagenta;
+  color: beige;
+  height: 70px;
+  width: 180px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40px;
+}
