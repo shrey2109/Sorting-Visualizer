@@ -1,5 +1,3 @@
-import BubbleCode from "../components/BubbleCode";
-
 const initialState = {
   sortingAlgorithm: "",
   sortingColor: "",
