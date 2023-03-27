@@ -3,6 +3,10 @@ import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from 'react-redux';
 import './Visuals.css';
 import BubbleSort from './BubbleSort';
+import InsertionSort from "./InsertionSort";
+import MergeSort from "./MergeSort";
+import QuickSort from "./QuickSort";
+import SelectionSort from "./SelectionSort";
 
 const Visuals = () => {
   const myState = useSelector(state => state.updateProps);
@@ -51,7 +55,11 @@ const Visuals = () => {
 
       <div className="code">
 
-      <BubbleSort />
+      {/* <BubbleSort /> */}
+      {/* <InsertionSort/> */}
+              {/* <MergeSort/> */}
+              {/* <QuickSort/> */}
+              <SelectionSort/>
       </div>
     </div>
   );
