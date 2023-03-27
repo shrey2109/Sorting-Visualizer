@@ -43,7 +43,7 @@ const MergeSort = () => {
                     }
                 }
             }
-        }, timer * 2000);
+        }, timer * 3000);
     }
 
     const solve = () => {

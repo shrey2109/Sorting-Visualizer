@@ -16,19 +16,19 @@ const InsertionSort = () =>{
    let total_time = 0;
    let timing_map = new Map();
    
-   for(let i = 0; i < arrVal.length; i++){
-       let j = i+1;
-       while(j>0 && arrVal[j]<arrVal[j-1]){
-           let temp = arrVal[j];
-           arrVal[j] = arrVal[j-1];
-           arrVal[j-1] = temp;
-           total_time++;
-           j--;
-        }
-        timing_map.set(i+1,i+1-j);
-    }
+   // for(let i = 0; i < arrVal.length; i++){
+   //     let j = i+1;
+   //     while(j>0 && arrVal[j]<arrVal[j-1]){
+   //         let temp = arrVal[j];
+   //         arrVal[j] = arrVal[j-1];
+   //         arrVal[j-1] = temp;
+   //         total_time++;
+   //         j--;
+   //      }
+   //      timing_map.set(i+1,i+1-j);
+   //  }
     
-    arrVal = myState.arrVal.map((item) => item[0]);
+   //  arrVal = myState.arrVal.map((item) => item[0]);
    //let count = 0, flag = 0;
 
    const solve = () => {
